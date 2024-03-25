@@ -8,6 +8,8 @@ def time(sec):
     if minutes >= 60:
             hours = minutes // 60
             minutes -= (hours * 60)
+    while hours > 24:
+         hours -= 24
     if minutes < 10 and sec < 10:
         return f"{hours}:0{minutes}:0{sec}"
     elif sec < 10:
