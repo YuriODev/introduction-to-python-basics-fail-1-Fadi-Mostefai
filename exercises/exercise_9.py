@@ -1,5 +1,8 @@
 # Exercise 9
 # Your solution comes here
 def convert(h,m,s):
-    return (30 * h) * (m==0 and s==0) + ((30 * h))
+    return (30 * h) + (6 * m) + (0.1 * s)
 
+h = int(input(""))
+m = int(input(""))
+s = int(input(""))
