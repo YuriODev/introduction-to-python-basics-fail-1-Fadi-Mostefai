@@ -13,7 +13,7 @@ def demo(s):
   s1 = s
   
   
-  return f"{f}(500), {h}(100), {t}(10), {v}(5), {s1}(1)"
+  return f"{f} (500), {h} (100), {t} (10), {v} (5), {s1} (1)"
 
 s = int(input(""))
 print(demo(s))
