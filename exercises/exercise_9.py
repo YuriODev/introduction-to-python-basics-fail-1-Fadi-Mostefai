@@ -6,3 +6,5 @@ def convert(h,m,s):
 h = int(input(""))
 m = int(input(""))
 s = int(input(""))
+
+print(convert(h,m,s))
