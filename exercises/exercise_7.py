@@ -1,11 +1,8 @@
 # Exercise 7
 # Your solution comes here
 def answer(num):
-    sum = 0
     str_num = str(num)
-    for number in str_num:
-        sum += int(number)
-    return sum
+    return int(str_num[0]) + int(str_num[1]) + int(str_num[2]) + int(str_num[3])
 
 num = int(input(""))
 print(answer(num))
